@@ -1,0 +1,15 @@
+:root { --bg: #05070F; --panel: #0E1834; --ink: #F6F2EA; --muted: #9AA3BF; --gold: #FFD34D; --line: #22305A; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 "Source Sans 3", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+h1, h2 { font-family: Montserrat, system-ui, sans-serif; font-weight: 900; line-height: 1.15; }
+h1 { font-size: clamp(30px, 7vw, 46px); margin: 0 0 8px; }
+h1 span { color: var(--gold); }
+h2 { font-size: 20px; margin: 36px 0 8px; color: var(--gold); }
+p, li { color: var(--ink); }
+.lede { color: var(--muted); font-size: 19px; margin: 0 0 28px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; margin: 20px 0; }
+a { color: var(--gold); }
+nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 36px; font-weight: 700; font-family: Montserrat, system-ui, sans-serif; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
+nav a { text-decoration: none; }
+footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
